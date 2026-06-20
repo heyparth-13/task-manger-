@@ -1,3 +1,4 @@
+import type { Metadata } from "next";
 import { Outfit } from "next/font/google";
 import "./globals.css";
 
@@ -22,6 +23,7 @@ export default function RootLayout({
   return (
     <html lang="en">
       <body
+        suppressHydrationWarning
         className={`${outfit.variable} antialiased bg-gray-50 text-gray-900 selection:bg-indigo-100 selection:text-indigo-900`}
       >
         <AuthProvider>
