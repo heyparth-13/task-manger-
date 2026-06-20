@@ -1,0 +1,24 @@
+{
+  "users": [
+    {
+      "_id": "1781942401651tk881xfio",
+      "name": "Test User",
+      "email": "test@example.com",
+      "password": "$2a$10$Ae977kwR3Wc4RqU7tGMo9OWLWwVHU9DputBOsIeAfNKhc.G.cLfTy",
+      "createdAt": "2026-06-20T08:00:01.652Z"
+    }
+  ],
+  "tasks": [
+    {
+      "_id": "1781942496663835ntsci4",
+      "title": "My First Task",
+      "description": "This is a test task to verify the application works.",
+      "status": "DONE",
+      "priority": "HIGH",
+      "dueDate": null,
+      "userId": "1781942401651tk881xfio",
+      "createdAt": "2026-06-20T08:01:36.663Z",
+      "updatedAt": "2026-06-20T08:02:15.162Z"
+    }
+  ]
+}
